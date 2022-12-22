@@ -1,4 +1,4 @@
 HOST = MYHOSTNAME
 ENV = MYENV
 THIS = ${BUILD_N}
-CRASH = ${THIS}/crash/${BUILD_N}
+CRASH = ${{THIS}/crash/{BUILD_N}}
